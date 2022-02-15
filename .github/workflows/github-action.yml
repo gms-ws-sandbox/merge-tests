@@ -1,0 +1,17 @@
+name: Time Wasting Test Placeholder
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  wait:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: wait-step
+        run: |
+          echo Sleeping...
+          sleep 60
+          echo Nap time over.
+        
