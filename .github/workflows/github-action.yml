@@ -2,7 +2,7 @@ name: Time Wasting Test Placeholder
 
 on:
   push:
-    branches: [ main ]
+    branches: [ ]
 
 jobs:
   wait:
@@ -12,6 +12,6 @@ jobs:
       - name: wait-step
         run: |
           echo Sleeping...
-          sleep 60
+          sleep 10
           echo Nap time over.
         
