@@ -2,7 +2,7 @@ name: Time Wasting Test Placeholder
 
 on:
   push:
-    branches: [ main ]
+    branches: [ ]
 
 jobs:
   wait:
