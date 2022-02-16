@@ -1,2 +1,2 @@
 This is a random file without any code.
-a
+foo
